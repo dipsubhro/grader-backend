@@ -1,0 +1,56 @@
+[
+  {
+    "mcq": [
+      {
+        "q": "What programming language did Swapnoneel Saha use to develop the 3D simulation for 'Lab for All'?",
+        "options": [
+          "Python",
+          "JavaScript",
+          "C++",
+          "Java"
+        ],
+        "answer": "JavaScript"
+      },
+      {
+        "q": "Which platform did Swapnoneel use to create an Advanced Python course with over 30 modules?",
+        "options": [
+          "Udemy",
+          "Coursera",
+          "Tutorials Point",
+          "edX"
+        ],
+        "answer": "Tutorials Point"
+      },
+      {
+        "q": "Which back-end technology was used in the 'Toile' project?",
+        "options": [
+          "Firebase",
+          "MySQL",
+          "Django",
+          "Appwrite"
+        ],
+        "answer": "Appwrite"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "q": "Swapnoneel Saha's Advanced Python course on Tutorials Point was purchased by over ______ users.",
+        "answer": "3700"
+      },
+      {
+        "q": "Swapnoneel achieved a CGPA of ______ up to the 2nd semester of his Bachelor of Technology.",
+        "answer": "9.25"
+      }
+    ],
+    "trueFalse": [
+      {
+        "q": "Swapnoneel Saha is currently a student at Maulana Abul Kalam Azad University of Technology.",
+        "answer": true
+      },
+      {
+        "q": "Swapnoneel's freelancing work exclusively involves web development.",
+        "answer": false
+      }
+    ]
+  }
+]
