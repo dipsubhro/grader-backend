@@ -2,54 +2,108 @@
   {
     "mcq": [
       {
-        "q": "What programming language did Swapnoneel Saha use to develop the 3D simulation for 'Lab for All'?",
+        "q": "Which browser is NOT explicitly recommended for the Infosys assessment?",
         "options": [
-          "Python",
-          "JavaScript",
-          "C++",
-          "Java"
+          "Google Chrome",
+          "Microsoft Edge",
+          "Mozilla Firefox",
+          "Chromium"
         ],
-        "answer": "JavaScript"
+        "answer": "Mozilla Firefox"
       },
       {
-        "q": "Which platform did Swapnoneel use to create an Advanced Python course with over 30 modules?",
+        "q": "What is the minimum RAM requirement for the Infosys assessment?",
         "options": [
-          "Udemy",
-          "Coursera",
-          "Tutorials Point",
-          "edX"
+          "2GB",
+          "4GB",
+          "8GB",
+          "16GB"
         ],
-        "answer": "Tutorials Point"
+        "answer": "4GB"
       },
       {
-        "q": "Which back-end technology was used in the 'Toile' project?",
+        "q": "What type of device is NOT allowed for taking the Infosys assessment?",
         "options": [
-          "Firebase",
-          "MySQL",
-          "Django",
-          "Appwrite"
+          "Desktop computer",
+          "Laptop",
+          "Tablet",
+          "Both Tablet and Mobile"
         ],
-        "answer": "Appwrite"
+        "answer": "Both Tablet and Mobile"
       }
     ],
     "fillBlanks": [
       {
-        "q": "Swapnoneel Saha's Advanced Python course on Tutorials Point was purchased by over ______ users.",
-        "answer": "3700"
+        "q": "The minimum upload speed required for the internet connection is ______ Mbps.",
+        "answer": "1"
       },
       {
-        "q": "Swapnoneel achieved a CGPA of ______ up to the 2nd semester of his Bachelor of Technology.",
-        "answer": "9.25"
+        "q": "Besides a government photo ID, you are required to bring your ______ ID to the test venue.",
+        "answer": "college"
       }
     ],
     "trueFalse": [
       {
-        "q": "Swapnoneel Saha is currently a student at Maulana Abul Kalam Azad University of Technology.",
-        "answer": true
+        "q": "Using online communication applications during the test is permitted.",
+        "answer": false
       },
       {
-        "q": "Swapnoneel's freelancing work exclusively involves web development.",
+        "q": "You can use a calculator during the Infosys assessment.",
         "answer": false
+      }
+    ]
+  },
+  {
+    "mcq": [
+      {
+        "q": "What is the maximum time allowed to login after the test slot begins?",
+        "options": [
+          "5 minutes",
+          "10 minutes",
+          "15 minutes",
+          "20 minutes"
+        ],
+        "answer": "15 minutes"
+      },
+      {
+        "q": "What happens if you miss the login window?",
+        "options": [
+          "You can contact support to reschedule.",
+          "You can login after 15 minutes.",
+          "You will not be able to take the test.",
+          "The test will automatically start after 15 minutes."
+        ],
+        "answer": "You will not be able to take the test."
+      },
+      {
+        "q": "Who can you contact if you have questions during the assessment?",
+        "options": [
+          "Your friends",
+          "The test administrator",
+          "The college staff",
+          "Proctors"
+        ],
+        "answer": "Proctors"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "q": "The entire duration of the test is ________ in person.",
+        "answer": "proctored"
+      },
+      {
+        "q": "You must not use ________, ________, or any other type of external audio equipment.",
+        "answer": "headphones, earphones"
+      }
+    ],
+    "trueFalse": [
+      {
+        "q": "Exemptions will be made if you miss the login window.",
+        "answer": false
+      },
+      {
+        "q": "Candidates risk application cancellation for any malpractice or violation of instructions.",
+        "answer": true
       }
     ]
   }

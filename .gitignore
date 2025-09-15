@@ -70,6 +70,7 @@ quiz-generator/token.json
 # Ignore inputFiles if not needed
 documents/
 inputFiles/
+pdf-extractor/inputfiles
 
 #access token
 credentials.json

@@ -40,7 +40,7 @@ def extract(path, lang="ben+hin+eng"):
 
     return full_text
 
-pdf_file = "swapno.pdf"  
+pdf_file = "inputfiles/resume.pdf"  
 print(f"Processing {pdf_file}...")
 extracted_text = extract(pdf_file)
 with open("output.txt", "w", encoding="utf-8") as f:

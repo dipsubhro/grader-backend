@@ -83,4 +83,5 @@ export async function createQuiz(auth, quizData) {
   }
 
   console.log(`Quiz created: ${newForm.data.responderUri}`);
+  return newForm.data.responderUri;
 }

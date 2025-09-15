@@ -5,7 +5,7 @@ import { createQuiz } from './src/formCreator.js';
 
 async function main() {
   try {
-    // Generate the quiz
+
     console.log('⚡ Generating quiz...');
     const extractedText = await fs.readFile("../pdf-extractor/output.txt", "utf-8");
     const chunks = extractedText.split(/--- Page \d+/).filter(chunk => chunk.trim() !== '');
@@ -21,16 +21,15 @@ async function main() {
       allQuizzes.push(JSON.parse(quizData));
     }
     await fs.writeFile("quiz.json", JSON.stringify(allQuizzes, null, 2));
-    console.log('✅ Quiz saved to quiz.json');
-
-    // Create the Google Form
-    console.log('🚀 Creating Google Form...');
+    console.log('Creating Google Form...');
     const auth = await authenticate();
-    await createQuiz(auth, allQuizzes);
+    const formUrl = await createQuiz(auth, allQuizzes);
+    return formUrl;
 
   } catch (error) {
     console.error('An error occurred:', error);
+    throw error;
   }
 }
 
-main();
+export { main };

@@ -1,4 +1,4 @@
-#!/home/subhradip-sinha/Desktop/grader/pdf-extractor/venv/bin/python3
+#!/home/subhradip-sinha/Desktop/grader-backend/pdf-extractor/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
